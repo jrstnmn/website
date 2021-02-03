@@ -1,0 +1,89 @@
+html {
+    overflow: hidden;
+    padding: 0;
+    height: 100vh;
+}
+
+body {
+    margin-top: 0;
+    letter-spacing: 0.05em;
+    font-family: 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgba(255, 213, 150, 0.5) 10%, rgba(0, 228, 255, 0.35)), url("../img/peter-bucks-2_FaxYZiIA4-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1, h2 {
+    font-weight: 100;
+}
+
+h1, h2, p, li {
+    color: rgb(233, 233, 233);
+}
+
+h2, p, li {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 100;
+}
+
+h1 {
+    letter-spacing: 0em;
+    font-size: 4em;
+    font-family: 'Lobster', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+@counter-style thumbs {
+    system: cyclic;
+    symbols: "\1F44D" "\1F44C" "\1F449" "\1F4AA";
+    suffix: "  ";
+  }
+  
+ul {
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    margin: 0;
+}
+
+#container {
+    padding-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#footer {
+    width: 100%;
+    position: fixed;
+    bottom: 2em;
+}
+
+#footer span {
+    font-size: 0.7em;
+    font-style: italic;
+    color: rgb(233, 233, 233);
+}
+
+a:link {
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
